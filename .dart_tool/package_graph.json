@@ -6,7 +6,9 @@
     {
       "name": "lms_layered_architecture_example",
       "version": "0.0.0",
-      "dependencies": [],
+      "dependencies": [
+        "flutter"
+      ],
       "devDependencies": [
         "test"
       ]
@@ -40,6 +42,18 @@
         "web_socket_channel",
         "webkit_inspection_protocol",
         "yaml"
+      ]
+    },
+    {
+      "name": "flutter",
+      "version": "0.0.0",
+      "dependencies": [
+        "characters",
+        "collection",
+        "material_color_utilities",
+        "meta",
+        "sky_engine",
+        "vector_math"
       ]
     },
     {
@@ -236,7 +250,7 @@
     },
     {
       "name": "coverage",
-      "version": "1.16.0",
+      "version": "1.16.1",
       "dependencies": [
         "args",
         "cli_config",
@@ -275,7 +289,7 @@
     },
     {
       "name": "analyzer",
-      "version": "14.6.0",
+      "version": "14.7.0",
       "dependencies": [
         "_fe_analyzer_shared",
         "collection",
@@ -290,6 +304,33 @@
         "watcher",
         "yaml"
       ]
+    },
+    {
+      "name": "sky_engine",
+      "version": "0.0.0",
+      "dependencies": []
+    },
+    {
+      "name": "vector_math",
+      "version": "2.4.0",
+      "dependencies": []
+    },
+    {
+      "name": "meta",
+      "version": "1.18.3",
+      "dependencies": []
+    },
+    {
+      "name": "material_color_utilities",
+      "version": "0.13.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "characters",
+      "version": "1.4.1",
+      "dependencies": []
     },
     {
       "name": "string_scanner",
@@ -312,15 +353,13 @@
     },
     {
       "name": "web",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "dependencies": []
     },
     {
       "name": "crypto",
-      "version": "3.0.7",
-      "dependencies": [
-        "typed_data"
-      ]
+      "version": "3.0.8",
+      "dependencies": []
     },
     {
       "name": "vm_service",
@@ -342,11 +381,6 @@
         "source_maps",
         "stack_trace"
       ]
-    },
-    {
-      "name": "meta",
-      "version": "1.19.0",
-      "dependencies": []
     },
     {
       "name": "glob",
@@ -434,7 +468,7 @@
     },
     {
       "name": "_fe_analyzer_shared",
-      "version": "110.0.0",
+      "version": "111.0.0",
       "dependencies": [
         "meta"
       ]
